@@ -13,3 +13,4 @@ The scanner then back-calculates velocity using the incorrect (nominal) **VENC**
 The "Bonus" correction assumes the nonlinearity profile ($\alpha$) is known via phantom calibration.  
 The measured velocity ($v_{meas}$) is corrected by dividing it by the local gradient deviation factor, successfully recovering the true velocity across all positions.  
 File Included **pc_mri_simulation.py**: Python script containing the hardware model, signal simulation, and correction visualization.  
+Python script uses two modules Matplotlib & NumPy
